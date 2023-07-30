@@ -16,4 +16,16 @@ document.addEventListener("DOMContentLoaded", () => {
     showMenu.style.display = "block";
     closeMenu.style.display = "none";
   });
+
+  function removeClassFromNavLinks() {
+    navLinks.classList.remove("nav-mbl-active");
+    showMenu.style.display = "block";
+    closeMenu.style.display = "none";
+  }
+
+  navLinks.addEventListener("click", (event) => {
+    if (event.target.tagName === "A" || event.target.tagName === "BUTTON") {
+      removeClassFromNavLinks();
+    }
+  });
 });
