@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
     closeMenu.style.display = "none";
   });
 
-  function removeClassFromNavLinks() {
+  function hideMobileMenu() {
     navLinks.classList.remove("nav-mbl-active");
     showMenu.style.display = "block";
     closeMenu.style.display = "none";
@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   navLinks.addEventListener("click", (event) => {
     if (event.target.tagName === "A" || event.target.tagName === "BUTTON") {
-      removeClassFromNavLinks();
+      hideMobileMenu();
     }
   });
 });
