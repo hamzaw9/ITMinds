@@ -55,6 +55,11 @@ header {
   color: #d3d3d3;
   font-size: xx-large;
   font-weight: 800;
+  transition: padding-left 1s;
+}
+
+#nav-links a:hover {
+  padding-left: 4px;
 }
 
 .subscribe-btn {
@@ -64,4 +69,10 @@ header {
   padding: 15px;
   border: 2px solid #ec5242;
   border-radius: 4px;
+  transition: background-color 1s, color 1s;
+}
+
+.subscribe-btn:hover {
+  background-color: #ec5242;
+  color: #fff;
 }
