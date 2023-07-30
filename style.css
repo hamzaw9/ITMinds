@@ -17,3 +17,13 @@ li {
 a {
   text-decoration: none;
 }
+
+header {
+  max-width: 100%;
+  width: 90%;
+  margin: 0 auto;
+}
+
+nav {
+  background-color: #fff;
+}
