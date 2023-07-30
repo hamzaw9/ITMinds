@@ -18,6 +18,12 @@ a {
   text-decoration: none;
 }
 
+button {
+  cursor: pointer;
+}
+
+/*** *******      Navbar        ****** ***/
+
 header {
   max-width: 100%;
   width: 90%;
@@ -26,11 +32,36 @@ header {
 
 .top-nav,
 .logo,
-.nav-links,
+/*.nav-links,*/
 .close-menu {
   display: none;
 }
 
 .menu {
   padding: 8% 0;
+  display: none;
+}
+
+#nav-links {
+  height: 100vh;
+  background-color: #272a31;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding: 15px;
+}
+
+#nav-links a {
+  color: #d3d3d3;
+  font-size: xx-large;
+  font-weight: 800;
+}
+
+.subscribe-btn {
+  color: #ec5242;
+  font-size: large;
+  font-weight: 800;
+  padding: 15px;
+  border: 2px solid #ec5242;
+  border-radius: 4px;
 }
