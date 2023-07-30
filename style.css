@@ -24,6 +24,13 @@ header {
   margin: 0 auto;
 }
 
-/*nav {
-  background-color: #fff;
-}*/
+.top-nav,
+.logo,
+.nav-links,
+.close-menu {
+  display: none;
+}
+
+.menu {
+  padding: 8% 0;
+}
