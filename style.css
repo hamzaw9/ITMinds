@@ -348,6 +348,36 @@ header {
   color: #414247;
 }
 
+.event-img {
+  position: relative;
+  margin-bottom: 20px;
+}
+
 .event-img img {
   width: 100%;
+}
+
+.event-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  background-color: #ec5242;
+  opacity: 0.8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 1s;
+}
+
+.event-text:hover {
+  opacity: 0;
+}
+
+.event-text p {
+  font-size: 52px;
+  color: #fff;
 }
