@@ -329,3 +329,25 @@ header {
 .aim a {
   font-size: 2.5rem;
 }
+
+/*** *******      Events Section        ****** ***/
+
+.events {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  text-align: center;
+  padding: 8% 6%;
+}
+
+.events h2 {
+  color: #ec5242;
+}
+
+.events p {
+  color: #414247;
+}
+
+.event-img img {
+  width: 100%;
+}
