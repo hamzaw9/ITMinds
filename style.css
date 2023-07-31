@@ -301,7 +301,7 @@ header {
 
 /* ----------------- *********      About Page      ******** -------------------- */
 
-/*** *******      About Main Section        ****** ***/
+/*** *******      Main Section        ****** ***/
 
 .main-about {
   text-align: center;
@@ -310,4 +310,22 @@ header {
 .main-about h5 {
   margin-top: 8px;
   text-decoration: underline;
+}
+
+/*** *******      Aim Section        ****** ***/
+
+.aim {
+  text-align: center;
+  padding: 8% 12%;
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+}
+
+.aim p {
+  color: #414247;
+}
+
+.aim a {
+  font-size: 2.5rem;
 }
