@@ -124,30 +124,48 @@ header {
 
 /*** *******      Feature Program Section        ****** ***/
 
-.feature-program {
+.feature-courses {
   background-color: #272a31;
   background-image: url(images/feature-prog-pattern_bg.png);
   padding: 7% 4%;
 }
 
-.feature-prog-heading {
+.feature-cour-heading {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 10px;
+  margin-bottom: 20px;
 }
 
-.feature-prog-heading h2 {
+.feature-cour-heading h2 {
   color: #fff;
 }
 
-.feature-prog-heading hr {
+.feature-cour-heading hr {
   background-color: #ec5242;
   border: none;
   height: 4px;
   width: 10%;
 }
 
-.program h4 {
+.course-container {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.course {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  background-color: rgba(59, 62, 69, 0.6);
+}
+
+.course h4 {
   color: #ec5242;
+}
+
+.course p {
+  color: #d3d3d3;
 }
