@@ -121,3 +121,33 @@ header {
   margin-bottom: 15px;
   color: #272a31;
 }
+
+/*** *******      Feature Program Section        ****** ***/
+
+.feature-program {
+  background-color: #272a31;
+  background-image: url(images/feature-prog-pattern_bg.png);
+  padding: 7% 4%;
+}
+
+.feature-prog-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.feature-prog-heading h2 {
+  color: #fff;
+}
+
+.feature-prog-heading hr {
+  background-color: #ec5242;
+  border: none;
+  height: 4px;
+  width: 10%;
+}
+
+.program h4 {
+  color: #ec5242;
+}
