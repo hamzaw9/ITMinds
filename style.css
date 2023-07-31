@@ -38,11 +38,11 @@ header {
 }
 
 .menu {
-  padding: 8% 0 5% 5%;
+  padding: 7% 0 5% 5%;
 }
 
 .close-menu {
-  padding: 8% 0 5% 5%;
+  padding: 7% 0 5% 5%;
 }
 
 .nav-mbl-active {
@@ -99,7 +99,7 @@ header {
 .main h4 {
   color: #ec5242;
   margin-bottom: 25px;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .main h1 {
