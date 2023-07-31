@@ -276,3 +276,21 @@ header {
   justify-content: space-evenly;
   gap: 10px;
 }
+
+/*** *******      Footer        ****** ***/
+
+.footer {
+  display: flex;
+  align-items: center;
+  padding: 10% 6%;
+}
+
+.footer a {
+  color: #ec5242;
+  width: 40%;
+}
+
+.footer p {
+  width: 60%;
+  color: #312e2e;
+}
