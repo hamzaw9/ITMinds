@@ -298,3 +298,16 @@ header {
   width: 60%;
   color: #312e2e;
 }
+
+/* ----------------- *********      About Page      ******** -------------------- */
+
+/*** *******      About Main Section        ****** ***/
+
+.main-about {
+  text-align: center;
+}
+
+.main-about h5 {
+  margin-top: 8px;
+  text-decoration: underline;
+}
