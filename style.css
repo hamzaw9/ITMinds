@@ -85,3 +85,39 @@ header {
 }
 
 /*** *******      Main Section        ****** ***/
+
+.main {
+  background-image: url(images/main-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  height: 92vh;
+  padding: 10% 5% 8% 5%;
+}
+
+.main h4 {
+  color: #ec5242;
+  margin-bottom: 25px;
+  font-size: 18px;
+}
+
+.main h1 {
+  color: #ec5242;
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 45px;
+}
+
+.main p {
+  color: #414247;
+}
+
+.event-details {
+  margin-bottom: 45px;
+}
+
+.main h2 {
+  margin-bottom: 15px;
+  color: #272a31;
+}
