@@ -248,3 +248,31 @@ header {
 .instructor-details p {
   color: #6b6666;
 }
+
+/*** *******      Partner Section        ****** ***/
+
+.partner {
+  background-color: #272a31;
+  padding: 7%;
+  text-align: center;
+}
+
+.partner-heading h2 {
+  color: #d3d3d3;
+  margin-bottom: 15px;
+}
+
+.partner-heading hr {
+  background-color: #ec5242;
+  border: none;
+  height: 4px;
+  width: 10%;
+  margin: 0 auto 30px auto;
+}
+
+.partner-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 10px;
+}
