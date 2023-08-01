@@ -535,4 +535,14 @@ header {
   .footer a {
     font-size: 25px;
   }
+
+  /* ----------------- *********      About Page      ******** -------------------- */
+
+  .main-about {
+    padding: 10% 22% 8% 22%;
+  }
+
+  .main-about h5 {
+    font-size: 17px;
+  }
 }
