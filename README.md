@@ -61,13 +61,13 @@ Utilized CSS box model and Flexbox for layout design. Incorporated images and ba
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://hamzaw9.github.io/portfolio/)
+- [Live Demo Link](https://hamzaw9.github.io/capstone-project-1/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-1. Go to this URL link: https://github.com/hamzaw9/portfolio
+1. Go to this URL link: https://github.com/hamzaw9/capstone-project-1
 2. clone the repo and start working on it.
 
 ### Prerequisites
@@ -104,7 +104,7 @@ Example commands:
 
 ```sh
   cd my-folder
-  git clone https://github.com/hamzaw9/portfolio
+  git clone https://github.com/hamzaw9/capstone-project-1
 ```
 
 ### Install
@@ -136,7 +136,7 @@ StyleLint run:
 To run the project, execute the following command:
 
 ```sh
-  cd portfolio
+  cd capstone-project-1
   index.html
 ```
 
@@ -171,8 +171,8 @@ Your working browser.
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Application Deploy**
-- [ ] **Javascript Implementation**
+- [ ] **frontend Framework**
+- [ ] **Database**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -180,7 +180,7 @@ Your working browser.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/hamzaw9/my-portfolio/issues).
+Feel free to check the [issues page](https://github.com/hamzaw9/capstone-project-1/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -192,7 +192,7 @@ If you find this project useful and informative, please consider giving it a sta
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank **Microverse**.
+I would like to thank **Microverse** and <a href="[#readme-top](https://www.behance.net/adagio07)">**Cindy Shin**</a> for the design.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
