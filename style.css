@@ -413,4 +413,51 @@ header {
   .top-nav a:hover {
     color: #c96054;
   }
+
+  .logo {
+    display: block;
+    color: #ec5242;
+    width: 40%;
+  }
+
+  .navbar {
+    display: flex;
+    padding: 2% 5%;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .nav-links {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: end;
+  }
+
+  .nav-links a {
+    color: #6b6666;
+    transition: color 1s, font-size 1s;
+  }
+
+  .nav-links a:hover {
+    color: #ec5242;
+    font-size: 18px;
+  }
+
+  .nav-links li {
+    margin-right: 5%;
+  }
+
+  .nav-links li:last-child {
+    margin-right: 0;
+  }
+
+  .subscribe-btn {
+    font-size: 18px;
+    color: #ec5242;
+    border: 2px solid #ec5242;
+    padding: 10px 16px;
+    border-radius: 4px;
+    transition: background-color 1s, color 1s;
+  }
 }
