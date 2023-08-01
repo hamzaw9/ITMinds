@@ -486,4 +486,24 @@ header {
     gap: 8px;
     padding: 14px 2px;
   }
+
+  /*** *******      Leading Instrutors Section        ****** ***/
+
+  .instructor-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0;
+  }
+
+  .instructor {
+    width: 50%;
+  }
+
+  .chess-board {
+    width: 6vw;
+  }
+  .instructor-img {
+    bottom: 31%;
+    width: 10vw;
+  }
 }
