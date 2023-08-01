@@ -26,11 +26,13 @@ button {
   cursor: pointer;
 }
 
+/* ----------------- *********      Home Page      ******** -------------------- */
+
 /*** *******      Navbar        ****** ***/
 
 header {
   max-width: 100%;
-  padding: 7% 5% 6% 0;
+  padding: 7% 5% 4% 0;
 }
 
 .top-nav,
@@ -377,4 +379,38 @@ header {
 .event-text p {
   font-size: 52px;
   color: #fff;
+}
+
+/* //////      Desktop Version      /////// */
+
+@media only screen and (width >= 768px) {
+  /* ----------------- *********      Home Page      ******** -------------------- */
+
+  /*** *******      Header        ****** ***/
+
+  header {
+    max-width: 100%;
+    padding: 0;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .top-nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #272a31;
+    gap: 14px;
+    padding: 1% 5%;
+  }
+
+  .top-nav a {
+    color: #fff;
+  }
+
+  .top-nav a:hover {
+    color: #c96054;
+  }
 }
