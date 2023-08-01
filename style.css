@@ -408,6 +408,7 @@ header {
 
   .top-nav a {
     color: #fff;
+    transition: color 1s;
   }
 
   .top-nav a:hover {
@@ -459,5 +460,11 @@ header {
     padding: 10px 16px;
     border-radius: 4px;
     transition: background-color 1s, color 1s;
+  }
+
+  /*** *******      Main Section        ****** ***/
+
+  .main {
+    padding: 10% 40% 8% 5%;
   }
 }
