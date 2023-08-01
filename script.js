@@ -70,4 +70,30 @@ document.addEventListener("DOMContentLoaded", () => {
         "Dedicated AI instructor employs hands-on, innovative methods to guide students.",
     },
   ];
+
+  function displayInstructors(instructors) {
+    const instructorContainer = document.querySelector(".instructor-container");
+    instructors.forEach((instructor) => {
+      instructorContainer.innerHTML += ` <div class="instructor">
+          <div class="img-container">
+            <img
+              class="chess-board"
+              src="images/Chess_Board.png"
+              alt="chess board"
+            />
+            <img
+              class="instructor-img"
+              src=${instructor.img}
+              alt="Instrcutor"
+            />
+          </div>
+          <div class="instructor-details">
+            <h3>${instructor.name}</h3>
+            <h4>${instructor.subject}</h4>
+            <p>${instructor.detail}</p>
+          </div>
+        </div>`;
+    });
+  }
+  displayInstructors(instructors);
 });
