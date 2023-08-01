@@ -5,23 +5,20 @@ document.addEventListener("DOMContentLoaded", () => {
   const closeMenu = document.querySelector(".close-menu");
   const navLinks = document.querySelector(".nav-links");
 
-  showMenu.addEventListener("click", () => {
+  function showMobileMenu() {
     navLinks.classList.add("nav-mbl-active");
     showMenu.style.display = "none";
     closeMenu.style.display = "block";
-  });
-
-  closeMenu.addEventListener("click", () => {
-    navLinks.classList.remove("nav-mbl-active");
-    showMenu.style.display = "block";
-    closeMenu.style.display = "none";
-  });
+  }
 
   function hideMobileMenu() {
     navLinks.classList.remove("nav-mbl-active");
     showMenu.style.display = "block";
     closeMenu.style.display = "none";
   }
+
+  closeMenu.addEventListener("click", hideMobileMenu);
+  showMenu.addEventListener("click", showMobileMenu);
 
   navLinks.addEventListener("click", (event) => {
     if (event.target.tagName === "A" || event.target.tagName === "BUTTON") {
