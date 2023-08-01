@@ -538,11 +538,50 @@ header {
 
   /* ----------------- *********      About Page      ******** -------------------- */
 
+  /*** *******      Main Section        ****** ***/
+
   .main-about {
     padding: 10% 22% 8% 22%;
   }
 
   .main-about h5 {
     font-size: 17px;
+  }
+
+  /*** *******      Aim Section        ****** ***/
+
+  .aim-about {
+    padding: 8% 21%;
+    border-bottom: 6px solid #ec5242;
+  }
+
+  /*** *******      Event Section        ****** ***/
+
+  .event-about .event-inner {
+    display: flex;
+    gap: 20px;
+  }
+
+  .event-about h2 {
+    font-size: 35px;
+  }
+
+  /*** *******      Partners Section        ****** ***/
+
+  .partner-about {
+    display: none;
+  }
+
+  /*** *******      Footer        ****** ***/
+
+  .footer-about {
+    background-color: #272a31;
+    padding: 7% 6%;
+  }
+
+  .footer-about p {
+    color: #d3d3d3;
+    font-size: 20px;
+    font-weight: 900;
   }
 }
