@@ -486,6 +486,11 @@ header {
     flex-direction: column;
     gap: 8px;
     padding: 14px 2px;
+    transition: border 1s;
+  }
+
+  .course:hover {
+    border: 1px solid #d3d3d3;
   }
 
   /*** *******      Leading Instrutors Section        ****** ***/
