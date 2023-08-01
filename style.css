@@ -467,4 +467,23 @@ header {
   .main {
     padding: 10% 40% 8% 5%;
   }
+
+  /*** *******      Feature Courses Section        ****** ***/
+
+  .feature-courses {
+    text-align: center;
+  }
+
+  .course-container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-bottom: 25px;
+  }
+
+  .course {
+    flex-direction: column;
+    gap: 8px;
+    padding: 14px 2px;
+  }
 }
