@@ -25,4 +25,49 @@ document.addEventListener("DOMContentLoaded", () => {
       hideMobileMenu();
     }
   });
+
+  /*** *******     Leading instructors        ****** ***/
+
+  const instructors = [
+    {
+      img: "images/instructor1.jpg",
+      name: "Shadman Ali",
+      subject: "Passionate Web Developer",
+      detail:
+        "Ability to simplify complex coding concepts, making learning enjoyable.",
+    },
+    {
+      img: "images/instructor2.jpg",
+      name: "Kendra James",
+      subject: "Innovative iOS Developer",
+      detail:
+        "Strong background in app design, encourages students to build intuitive applications.",
+    },
+    {
+      img: "images/instructor3.jpg",
+      name: "Evan Shaq",
+      subject: "Skilled Android Developer",
+      detail: "Fosters collaborative and inclusive learning environment.",
+    },
+    {
+      img: "images/instructor4.jpg",
+      name: "Chirag Agarwal",
+      subject: "Data wizard in Python",
+      detail: "Mentors aspiring data scientists to drive impactful solutions.",
+    },
+    {
+      img: "images/instructor5.jpg",
+      name: "Divya Pritam",
+      subject: "Creative Graphic Designer",
+      detail:
+        "Inspires students to explore artistic boundaries, using design as a powerful tool.",
+    },
+    {
+      img: "images/instructor6.jpg",
+      name: "Noah Williams",
+      subject: "Leading AI Expert",
+      detail:
+        "Dedicated AI instructor employs hands-on, innovative methods to guide students.",
+    },
+  ];
 });
