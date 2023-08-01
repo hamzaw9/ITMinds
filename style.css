@@ -416,6 +416,7 @@ header {
   }
 
   .logo {
+    font-size: 20px;
     display: block;
     color: #ec5242;
     width: 40%;
@@ -489,6 +490,10 @@ header {
 
   /*** *******      Leading Instrutors Section        ****** ***/
 
+  .leading-inst-heading hr {
+    margin-bottom: 45px;
+  }
+
   .instructor-container {
     flex-direction: row;
     flex-wrap: wrap;
@@ -497,6 +502,19 @@ header {
 
   .instructor {
     width: 50%;
+    max-width: 100%;
+    gap: 20px;
+  }
+
+  .img-container {
+    width: 30%;
+    max-width: 100%;
+  }
+
+  .instructor-details {
+    padding-left: 0;
+    width: 70%;
+    max-width: 100%;
   }
 
   .chess-board {
@@ -505,5 +523,11 @@ header {
   .instructor-img {
     bottom: 31%;
     width: 10vw;
+  }
+
+  /*** *******      Footer        ****** ***/
+
+  .footer a {
+    font-size: 25px;
   }
 }
