@@ -24,7 +24,7 @@
 
 # 📖 Portfolio <a name="about-project"></a>
 
-The goal of this project is to create a visually appealing portfolio that showcases my future projects. The portfolio will feature detailed information about each project, including live demos, screenshots, technologies used, and code snippets. In addition to viewing my work, visitors will be able to contact me through a contact form and connect with me via social media links. Overall, the portfolio will serve as a professional showcase of my skills and experience, highlighting my ability to develop high-quality projects.
+Utilized CSS box model and Flexbox for layout design. Incorporated images and backgrounds for visual appeal. JavaScript-driven interactivity with DOM manipulation and events. Deployed using GitHub Pages. Demonstrates adaptability to various screen sizes with media queries.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -44,10 +44,17 @@ The goal of this project is to create a visually appealing portfolio that showca
   </ul>
 </details>
 
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="#">Javascript</a></li>
+  </ul>
+</details>
+
 ### Key Features <a name="key-features"></a>
 
 - **Responsive Design**
-- **Linters Error Free**
+- **DOM Manipulatio**
 - **Animations and Transitions**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
