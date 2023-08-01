@@ -192,7 +192,7 @@ If you find this project useful and informative, please consider giving it a sta
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank **Microverse** and <a href="https://www.behance.net/adagio07">Cindy Shin</a> for the design.
+I would like to thank **Microverse** and [Cindy Shin](https://www.behance.net/adagio07) for the design.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
