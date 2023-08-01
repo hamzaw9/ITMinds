@@ -30,6 +30,7 @@ button {
 
 header {
   max-width: 100%;
+  padding: 7% 5% 6% 0;
 }
 
 .top-nav,
@@ -39,12 +40,9 @@ header {
   display: none;
 }
 
-.menu {
-  padding: 7% 0 5% 5%;
-}
-
+.menu,
 .close-menu {
-  padding: 7% 0 5% 5%;
+  padding-left: 4%;
 }
 
 .nav-mbl-active {
