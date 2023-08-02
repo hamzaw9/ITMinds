@@ -365,8 +365,8 @@ header {
   width: 100%;
   text-align: center;
   padding: 10px;
-  background-color: #ec5242;
-  opacity: 0.8;
+  background-color: #ec5342;
+  opacity: 0.5;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -566,7 +566,7 @@ header {
 
   .aim-about {
     padding: 8% 21%;
-    border-bottom: 6px solid #ec5242;
+    border-bottom: 1px solid #d3d3d3;
   }
 
   /*** *******      Event Section        ****** ***/
