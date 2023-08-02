@@ -1,0 +1,600 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* ----------------- *********      Home Page      ******** -------------------- */
+
+/*** *******      Navbar        ****** ***/
+
+header {
+  max-width: 100%;
+  padding: 7% 5% 4% 0;
+}
+
+.top-nav,
+.logo,
+.nav-links,
+.close-menu {
+  display: none;
+}
+
+.menu,
+.close-menu {
+  padding-left: 4%;
+}
+
+.nav-mbl-active {
+  width: 100%;
+  height: 90vh;
+  background-color: #272a31;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding: 15px;
+  position: fixed;
+  mix-blend-mode: multiply;
+  backdrop-filter: blur(10px);
+  margin-top: 17px;
+}
+
+.nav-mbl-active a {
+  color: #d3d3d3;
+  font-size: xx-large;
+  font-weight: 800;
+  transition: padding-left 1s;
+}
+
+.nav-mbl-active a:hover {
+  padding-left: 6px;
+}
+
+.nav-mbl-active .subscribe-btn {
+  color: #ec5242;
+  font-size: large;
+  font-weight: 800;
+  padding: 15px;
+  border: 2px solid #ec5242;
+  border-radius: 4px;
+  transition: background-color 1s, color 1s;
+}
+
+.subscribe-btn:hover {
+  background-color: #ec5242;
+  color: #fff;
+}
+
+/*** *******      Main Section        ****** ***/
+
+.main {
+  background-image: url(images/main-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  height: 92vh;
+  padding: 10% 5% 8% 5%;
+}
+
+.main h4 {
+  color: #ec5242;
+  margin-bottom: 25px;
+  font-size: 20px;
+}
+
+.main h1 {
+  color: #ec5242;
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 45px;
+}
+
+.main p {
+  color: #414247;
+}
+
+.event-details {
+  margin-bottom: 45px;
+}
+
+.main h2 {
+  margin-bottom: 15px;
+  color: #272a31;
+}
+
+/*** *******      Feature Program Section        ****** ***/
+
+.feature-courses {
+  background-color: #272a31;
+  background-image: url(images/feature-prog-pattern_bg.png);
+  padding: 7% 4%;
+  display: flex;
+  flex-direction: column;
+}
+
+.feature-cour-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.feature-cour-heading h2 {
+  color: #fff;
+}
+
+.feature-cour-heading hr,
+.leading-inst-heading hr {
+  background-color: #ec5242;
+  border: none;
+  height: 4px;
+  width: 10%;
+  margin: 0 auto;
+}
+
+.course-container {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  margin-bottom: 25px;
+}
+
+.course {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  background-color: rgba(59, 62, 69, 0.6);
+  padding: 4px;
+}
+
+.course h4 {
+  color: #ec5242;
+}
+
+.course p {
+  color: #d3d3d3;
+}
+
+.join-course {
+  font-size: 22px;
+  color: #fff;
+  background-color: #ec5242;
+  border: none;
+  border-radius: 4px;
+  transition: background-color 1s, color 1s;
+  margin: 0 auto;
+  padding: 16px 72px;
+}
+
+.join-course:hover {
+  color: #ec5242;
+  background-color: #fff;
+}
+
+/*** *******      Leading Instructors Section        ****** ***/
+
+.leading-instructors {
+  padding: 7% 5%;
+}
+
+.instructor-container {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.leading-inst-heading h2 {
+  color: #272a31;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.leading-inst-heading hr {
+  margin-bottom: 30px;
+}
+
+.instructor {
+  display: flex;
+}
+
+.chess-board {
+  width: 13vw;
+  position: relative;
+}
+
+.instructor-img {
+  position: relative;
+  bottom: 20%;
+  width: 26vw;
+  left: 8%;
+}
+
+.instructor-details {
+  display: flex;
+  flex-direction: column;
+  padding-left: 6%;
+  gap: 8%;
+}
+
+.instructor-details h3 {
+  color: #272a31;
+}
+
+.instructor-details h4 {
+  color: #ec5242;
+}
+
+.instructor-details p {
+  color: #6b6666;
+}
+
+/*** *******      Partner Section        ****** ***/
+
+.partner {
+  background-color: #272a31;
+  padding: 5% 7%;
+  text-align: center;
+  opacity: 0.9;
+}
+
+.partner-heading h2 {
+  color: #858585;
+  margin-bottom: 15px;
+}
+
+.partner-heading hr {
+  background-color: #ec5242;
+  border: none;
+  height: 4px;
+  width: 8%;
+  margin: 0 auto 30px auto;
+}
+
+.partner-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 10px;
+}
+
+/*** *******      Footer        ****** ***/
+
+.footer {
+  display: flex;
+  align-items: center;
+  padding: 8% 4%;
+  gap: 2px;
+}
+
+.footer a {
+  color: #ec5242;
+  width: 33%;
+}
+
+.footer p {
+  color: #312e2e;
+}
+
+/* ----------------- *********      About Page      ******** -------------------- */
+
+/*** *******      Main Section        ****** ***/
+
+.main-about {
+  text-align: center;
+}
+
+.main-about h5 {
+  margin-top: 8px;
+  text-decoration: underline;
+}
+
+/*** *******      Aim Section        ****** ***/
+
+.aim {
+  text-align: center;
+  padding: 8% 12%;
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+}
+
+.aim p {
+  color: #414247;
+}
+
+.aim a {
+  font-size: 2.5rem;
+}
+
+/*** *******      Events Section        ****** ***/
+
+.events {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  text-align: center;
+  padding: 8% 6%;
+}
+
+.events h2 {
+  color: #272a31;
+}
+
+.events p {
+  color: #414247;
+}
+
+.event-img {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.event-img img {
+  width: 100%;
+}
+
+.event-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  background-color: #ec5342;
+  opacity: 0.5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 1s;
+}
+
+.event-text:hover {
+  opacity: 0;
+}
+
+.event-text p {
+  font-size: 52px;
+  color: #fff;
+}
+
+/* //////      Desktop Version      /////// */
+
+@media only screen and (width >= 768px) {
+  /* ----------------- *********      Home Page      ******** -------------------- */
+
+  /*** *******      Header        ****** ***/
+
+  header {
+    max-width: 100%;
+    padding: 0;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .top-nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #272a31;
+    gap: 14px;
+    padding: 1% 5%;
+  }
+
+  .top-nav a {
+    color: #fff;
+    transition: color 1s;
+  }
+
+  .top-nav a:hover {
+    color: #c96054;
+  }
+
+  .logo {
+    font-size: 20px;
+    display: block;
+    color: #ec5242;
+    width: 40%;
+  }
+
+  .navbar {
+    display: flex;
+    padding: 2% 5%;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .nav-links {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: end;
+  }
+
+  .nav-links a {
+    color: #6b6666;
+    transition: color 1s, font-size 1s;
+  }
+
+  .nav-links a:hover {
+    color: #ec5242;
+    font-size: 18px;
+  }
+
+  .nav-links li {
+    margin-right: 5%;
+  }
+
+  .nav-links li:last-child {
+    margin-right: 0;
+  }
+
+  .subscribe-btn {
+    font-size: 18px;
+    color: #ec5242;
+    border: 2px solid #ec5242;
+    padding: 10px 16px;
+    border-radius: 4px;
+    transition: background-color 1s, color 1s;
+  }
+
+  /*** *******      Main Section        ****** ***/
+
+  .main {
+    padding: 10% 40% 8% 5%;
+  }
+
+  /*** *******      Feature Courses Section        ****** ***/
+
+  .feature-courses {
+    text-align: center;
+  }
+
+  .course-container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-bottom: 25px;
+  }
+
+  .course {
+    flex-direction: column;
+    gap: 8px;
+    padding: 14px 2px;
+    transition: border 1s;
+  }
+
+  .course:hover {
+    border: 1px solid #d3d3d3;
+  }
+
+  /*** *******      Leading Instrutors Section        ****** ***/
+
+  .leading-inst-heading hr {
+    margin-bottom: 45px;
+  }
+
+  .instructor-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0;
+  }
+
+  .instructor {
+    width: 50%;
+    max-width: 100%;
+    gap: 20px;
+  }
+
+  .img-container {
+    width: 30%;
+    max-width: 100%;
+  }
+
+  .instructor-details {
+    padding-left: 0;
+    width: 70%;
+    max-width: 100%;
+  }
+
+  .chess-board {
+    width: 6vw;
+  }
+
+  .instructor-img {
+    bottom: 31%;
+    width: 10vw;
+  }
+
+  /*** *******      Partner Section        ****** ***/
+
+  .partner-heading hr {
+    height: 2px;
+    width: 4%;
+  }
+
+  /*** *******      Footer        ****** ***/
+
+  .footer {
+    padding: 4% 6%;
+    justify-content: center;
+  }
+
+  .footer a {
+    font-size: 25px;
+  }
+
+  /* ----------------- *********      About Page      ******** -------------------- */
+
+  /*** *******      Main Section        ****** ***/
+
+  .main-about {
+    padding: 10% 22% 8% 22%;
+  }
+
+  .main-about h5 {
+    font-size: 17px;
+  }
+
+  /*** *******      Aim Section        ****** ***/
+
+  .aim-about {
+    padding: 8% 21%;
+    border-bottom: 1px solid #d3d3d3;
+  }
+
+  /*** *******      Event Section        ****** ***/
+
+  .event-about .event-inner {
+    display: flex;
+    gap: 20px;
+  }
+
+  .event-about h2 {
+    font-size: 35px;
+  }
+
+  /*** *******      Partners Section        ****** ***/
+
+  .partner-about {
+    display: none;
+  }
+
+  /*** *******      Footer        ****** ***/
+
+  .footer-about {
+    background-color: #272a31;
+  }
+
+  .footer-about p {
+    color: #d3d3d3;
+    font-size: 20px;
+    font-weight: 900;
+  }
+}
