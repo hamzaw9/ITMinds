@@ -24,7 +24,7 @@
 
 # 📖 Portfolio <a name="about-project"></a>
 
-The goal of this project is to create a visually appealing portfolio that showcases my future projects. The portfolio will feature detailed information about each project, including live demos, screenshots, technologies used, and code snippets. In addition to viewing my work, visitors will be able to contact me through a contact form and connect with me via social media links. Overall, the portfolio will serve as a professional showcase of my skills and experience, highlighting my ability to develop high-quality projects.
+Utilized CSS box model and Flexbox for layout design. Incorporated images and backgrounds for visual appeal. JavaScript-driven interactivity with DOM manipulation and events. Deployed using GitHub Pages. Demonstrates adaptability to various screen sizes with media queries.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -44,23 +44,30 @@ The goal of this project is to create a visually appealing portfolio that showca
   </ul>
 </details>
 
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="#">Javascript</a></li>
+  </ul>
+</details>
+
 ### Key Features <a name="key-features"></a>
 
 - **Responsive Design**
-- **Linters Error Free**
+- **DOM Manipulatio**
 - **Animations and Transitions**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-
-- [Live Demo Link](https://hamzaw9.github.io/portfolio/)
+ 
+- [Live Demo Link](https://hamzaw9.github.io/capstone-project-1/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-1. Go to this URL link: https://github.com/hamzaw9/portfolio
+1. Go to this URL link: https://github.com/hamzaw9/capstone-project-1
 2. clone the repo and start working on it.
 
 ### Prerequisites
@@ -97,7 +104,7 @@ Example commands:
 
 ```sh
   cd my-folder
-  git clone https://github.com/hamzaw9/portfolio
+  git clone https://github.com/hamzaw9/capstone-project-1
 ```
 
 ### Install
@@ -129,7 +136,7 @@ StyleLint run:
 To run the project, execute the following command:
 
 ```sh
-  cd portfolio
+  cd capstone-project-1
   index.html
 ```
 
@@ -164,8 +171,8 @@ Your working browser.
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Application Deploy**
-- [ ] **Javascript Implementation**
+- [ ] **frontend Framework**
+- [ ] **Database**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -173,7 +180,7 @@ Your working browser.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/hamzaw9/my-portfolio/issues).
+Feel free to check the [issues page](https://github.com/hamzaw9/capstone-project-1/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -185,7 +192,7 @@ If you find this project useful and informative, please consider giving it a sta
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank **Microverse**.
+I would like to thank **Microverse** and [Cindy Shin](https://www.behance.net/adagio07) for the design.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
