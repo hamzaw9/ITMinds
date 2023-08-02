@@ -256,12 +256,13 @@ header {
 
 .partner {
   background-color: #272a31;
-  padding: 7%;
+  padding: 5% 7%;
   text-align: center;
+  opacity: 0.9;
 }
 
 .partner-heading h2 {
-  color: #d3d3d3;
+  color: #858585;
   margin-bottom: 15px;
 }
 
@@ -269,7 +270,7 @@ header {
   background-color: #ec5242;
   border: none;
   height: 4px;
-  width: 10%;
+  width: 8%;
   margin: 0 auto 30px auto;
 }
 
@@ -285,16 +286,16 @@ header {
 .footer {
   display: flex;
   align-items: center;
-  padding: 10% 6%;
+  padding: 8% 4%;
+  gap: 2px;
 }
 
 .footer a {
   color: #ec5242;
-  width: 40%;
+  width: 33%;
 }
 
 .footer p {
-  width: 60%;
   color: #312e2e;
 }
 
@@ -531,7 +532,19 @@ header {
     width: 10vw;
   }
 
+  /*** *******      Partner Section        ****** ***/
+
+  .partner-heading hr {
+    height: 2px;
+    width: 4%;
+  }
+
   /*** *******      Footer        ****** ***/
+
+  .footer {
+    padding: 4% 6%;
+    justify-content: center;
+  }
 
   .footer a {
     font-size: 25px;
@@ -577,7 +590,6 @@ header {
 
   .footer-about {
     background-color: #272a31;
-    padding: 7% 6%;
   }
 
   .footer-about p {
