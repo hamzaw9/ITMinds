@@ -59,7 +59,7 @@ Utilized CSS box model and Flexbox for layout design. Incorporated images and ba
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🚀 Live Demo <a name="live-demo"></a>
+## 🚀 Live Demo <a name="live-demo"></a> 
  
 - [Live Demo Link](https://hamzaw9.github.io/capstone-project-1/)
 
