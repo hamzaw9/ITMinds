@@ -1,4 +1,4 @@
-<h3><b>Portfolio</b></h3>
+<h3><b>ITMinds</b></h3>
 
 # 📗 Table of Contents
 
@@ -22,7 +22,7 @@
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-# 📖 Portfolio <a name="about-project"></a>
+# 📖 ITMinds <a name="about-project"></a>
 
 Utilized CSS box model and Flexbox for layout design. Incorporated images and backgrounds for visual appeal. JavaScript-driven interactivity with DOM manipulation and events. Deployed using GitHub Pages. Demonstrates adaptability to various screen sizes with media queries.
 
@@ -54,20 +54,20 @@ Utilized CSS box model and Flexbox for layout design. Incorporated images and ba
 ### Key Features <a name="key-features"></a>
 
 - **Responsive Design**
-- **DOM Manipulatio**
+- **DOM Manipulation**
 - **Animations and Transitions**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🚀 Live Demo <a name="live-demo"></a> 
  
-- [Live Demo Link](https://hamzaw9.github.io/capstone-project-1/)
+- [Live Demo Link](https://hamzaw9.github.io/ITMinds/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-1. Go to this URL link: https://github.com/hamzaw9/capstone-project-1
+1. Go to this URL link: https://github.com/hamzaw9/ITMinds
 2. clone the repo and start working on it.
 
 ### Prerequisites
@@ -104,7 +104,7 @@ Example commands:
 
 ```sh
   cd my-folder
-  git clone https://github.com/hamzaw9/capstone-project-1
+  git clone https://github.com/hamzaw9/ITMinds
 ```
 
 ### Install
@@ -136,7 +136,7 @@ StyleLint run:
 To run the project, execute the following command:
 
 ```sh
-  cd capstone-project-1
+  cd ITMinds
   index.html
 ```
 
@@ -151,17 +151,11 @@ Example command:
   npx hint .
 ```
 
-### Deployment
-
-You can deploy this project using:
-
-Your working browser.
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 👥 Author <a name="authors">Hamza Baig</a>
+## 👥 Author <a name="authors"></a>
 
-👤 **Author**
+👤 **Hamza Baig**
 
 - GitHub: [@hamzabaig](https://github.com/hamzaw9)
 - Twitter: [@hamzabaig](https://twitter.com/hamzabaig059)
@@ -173,13 +167,13 @@ Your working browser.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/hamzaw9/capstone-project-1/issues).
+Feel free to check the [issues page](https://github.com/hamzaw9/ITMinds/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you find this project useful and informative, please consider giving it a star. Your support and feedback are greatly appreciated and will motivate me to continue creating high-quality projects in the future.
+If you find this project helpful and informative, please consider giving it a star. Your support and feedback are greatly appreciated and will motivate me to continue creating high-quality projects in the future.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
