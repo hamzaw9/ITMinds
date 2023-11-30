@@ -5,17 +5,24 @@ document.addEventListener('DOMContentLoaded', () => {
   const closeMenu = document.querySelector('.close-menu');
   const navLinks = document.querySelector('.nav-links');
 
-  function showMobileMenu() {
+  const showMobileMenu = () => {
     navLinks.classList.add('nav-mbl-active');
     showMenu.style.display = 'none';
     closeMenu.style.display = 'block';
-  }
+  };
 
-  function hideMobileMenu() {
+  const hideMobileMenu = () => {
     navLinks.classList.remove('nav-mbl-active');
     showMenu.style.display = 'block';
     closeMenu.style.display = 'none';
-  }
+  };
+
+  const checkScreenSize = () => {
+    const screenWidth = window.innerWidth;
+    if (screenWidth > 767 && navLinks.classList.contains('nav-mbl-active')) {
+      hideMobileMenu();
+    }
+  };
 
   closeMenu.addEventListener('click', hideMobileMenu);
   showMenu.addEventListener('click', showMobileMenu);
@@ -25,6 +32,10 @@ document.addEventListener('DOMContentLoaded', () => {
       hideMobileMenu();
     }
   });
+
+  window.addEventListener('resize', checkScreenSize);
+
+  checkScreenSize();
 
   /** * *******     Leading instructors        ****** ** */
 
@@ -71,7 +82,7 @@ document.addEventListener('DOMContentLoaded', () => {
     },
   ];
 
-  function displayInstructors(instructors) {
+  const displayInstructors = (instructors) => {
     const instructorContainer = document.querySelector('.instructor-container');
     instructors.forEach((instructor) => {
       instructorContainer.innerHTML += ` <div class="instructor">
@@ -94,6 +105,6 @@ document.addEventListener('DOMContentLoaded', () => {
           </div>
         </div>`;
     });
-  }
+  };
   displayInstructors(instructors);
 });

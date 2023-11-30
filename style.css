@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
 
 * {
   padding: 0;
@@ -11,7 +11,7 @@ html {
 }
 
 body {
-  font-family: "Lato", sans-serif;
+  font-family: Lato, sans-serif;
 }
 
 li {
@@ -90,13 +90,13 @@ header {
 /*** *******      Main Section        ****** ***/
 
 .main {
-  background-image: url(images/main-bg.jpg);
+  background-image: url("images/main-bg.jpg");
   background-size: cover;
   background-position: center;
   display: flex;
   flex-direction: column;
   height: 92vh;
-  padding: 10% 5% 8% 5%;
+  padding: 10% 5% 8%;
 }
 
 .main h4 {
@@ -129,7 +129,7 @@ header {
 
 .feature-courses {
   background-color: #272a31;
-  background-image: url(images/feature-prog-pattern_bg.png);
+  background-image: url("images/feature-prog-pattern_bg.png");
   padding: 7% 4%;
   display: flex;
   flex-direction: column;
@@ -167,8 +167,9 @@ header {
   display: flex;
   align-items: center;
   gap: 4px;
-  background-color: rgba(59, 62, 69, 0.6);
+  background-color: rgb(59 62 69 / 60%);
   padding: 4px;
+  transition: border 1s;
 }
 
 .course h4 {
@@ -271,7 +272,7 @@ header {
   border: none;
   height: 4px;
   width: 8%;
-  margin: 0 auto 30px auto;
+  margin: 0 auto 30px;
 }
 
 .partner-images {
@@ -501,8 +502,7 @@ header {
   }
 
   .instructor-container {
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-flow: row wrap;
     gap: 0;
   }
 
@@ -555,7 +555,7 @@ header {
   /*** *******      Main Section        ****** ***/
 
   .main-about {
-    padding: 10% 22% 8% 22%;
+    padding: 10% 22% 8%;
   }
 
   .main-about h5 {
