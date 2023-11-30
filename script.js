@@ -17,6 +17,13 @@ document.addEventListener('DOMContentLoaded', () => {
     closeMenu.style.display = 'none';
   }
 
+  function checkScreenSize() {
+    const screenWidth = window.innerWidth;
+    if (screenWidth > 767 && navLinks.classList.contains('nav-mbl-active')) {
+      hideMobileMenu();
+    }
+  }
+
   closeMenu.addEventListener('click', hideMobileMenu);
   showMenu.addEventListener('click', showMobileMenu);
 
@@ -25,6 +32,10 @@ document.addEventListener('DOMContentLoaded', () => {
       hideMobileMenu();
     }
   });
+
+  window.addEventListener('resize', checkScreenSize);
+
+  checkScreenSize();
 
   /** * *******     Leading instructors        ****** ** */
 
