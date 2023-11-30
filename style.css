@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
 
 * {
   padding: 0;
@@ -11,7 +11,7 @@ html {
 }
 
 body {
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 li {
@@ -169,6 +169,7 @@ header {
   gap: 4px;
   background-color: rgba(59, 62, 69, 0.6);
   padding: 4px;
+  transition: border 1s;
 }
 
 .course h4 {
